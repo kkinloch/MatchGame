@@ -1,9 +1,48 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Match Game</title>
+   <title>Match Game</title>
+   <link rel="icon" href="./resources/images/favicon.png" type="image/x-icon"/>
+   <link href="https://fonts.googleapis.com/css?family=Work+Sans:400,700,900" rel="stylesheet"/>
+   <link rel="stylesheet" href="./css/reset.css" type="text/css"/>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   <link rel="stylesheet" href="./css/style.css" type="text/css"/>
 </head>
 <body>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-3"> <!--div for game instructions-->
+        <h1>Match Game</h1>
+        <h2>Rules</h2>
+        <p>Click on a card to reveal the number on the other side. Click on a second card to try
+          and find a match to the first. If you succed, the pair will be removed from play. If not,
+          try again!</p>
+        <h2>How To Win</h2>
+        <p>You win when all pairs have been found</p>
+    </div>
+  </div>
+      <div id="game" class="col-xs-12 col-md-9"> <!--dive for game-->
+        <div class="row">
+          <div class="col-xs-3 card"></div>
+          <div class="col-xs-3 card"></div>
+          <div class="col-xs-3 card"></div>
+          <div class="col-xs-3 card"></div>
+          <div class="col-xs-3 card"></div>
+          <div class="col-xs-3 card"></div>
+          <div class="col-xs-3 card"></div>
+          <div class="col-xs-3 card"></div>
+          <div class="col-xs-3 card"></div>
+          <div class="col-xs-3 card"></div>
+          <div class="col-xs-3 card"></div>
+          <div class="col-xs-3 card"></div>
+          <div class="col-xs-3 card"></div>
+          <div class="col-xs-3 card"></div>
+          <div class="col-xs-3 card"></div>
+          <div class="col-xs-3 card"></div>
+      </div>
+    </div>
+</div>
+
   <script
     src="https://code.jquery.com/jquery-3.1.1.min.js"
     integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
